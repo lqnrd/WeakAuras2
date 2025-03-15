@@ -1622,6 +1622,7 @@ local methods = {
       parentButton:RecheckVisibility()
     else
       OptionsPrivate.Private.OptionsFrame().loadedButton:RecheckVisibility()
+      OptionsPrivate.Private.OptionsFrame().standbyButton:RecheckVisibility()
       OptionsPrivate.Private.OptionsFrame().unloadedButton:RecheckVisibility()
     end
   end,
